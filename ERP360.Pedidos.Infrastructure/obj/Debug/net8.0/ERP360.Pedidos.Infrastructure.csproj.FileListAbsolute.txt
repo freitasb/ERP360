@@ -1,0 +1,17 @@
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Infrastructure.deps.json
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Infrastructure.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Infrastructure.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Application.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Domain.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Application.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\bin\Debug\net8.0\ERP360.Pedidos.Domain.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.csproj.AssemblyReference.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.AssemblyInfoInputs.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.AssemblyInfo.cs
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.P.3F6BB0F1.Up2Date
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\refint\ERP360.Pedidos.Infrastructure.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ERP360.Pedidos.Infrastructure.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Infrastructure\obj\Debug\net8.0\ref\ERP360.Pedidos.Infrastructure.dll

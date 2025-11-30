@@ -1,0 +1,11 @@
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\bin\Debug\net8.0\ERP360.Pedidos.Domain.deps.json
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\bin\Debug\net8.0\ERP360.Pedidos.Domain.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\bin\Debug\net8.0\ERP360.Pedidos.Domain.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ERP360.Pedidos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ERP360.Pedidos.Domain.AssemblyInfoInputs.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ERP360.Pedidos.Domain.AssemblyInfo.cs
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ERP360.Pedidos.Domain.csproj.CoreCompileInputs.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ERP360.Pedidos.Domain.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\refint\ERP360.Pedidos.Domain.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ERP360.Pedidos.Domain.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Domain\obj\Debug\net8.0\ref\ERP360.Pedidos.Domain.dll
