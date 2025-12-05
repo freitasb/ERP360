@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP360.Pedidos.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP360.Pedidos.Api", "ERP360.Pedidos.Api\ERP360.Pedidos.Api.csproj", "{248635C1-4C2E-47BE-81C9-FD45D1BA964E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{164A4B80-3027-4AE0-BE72-1F5E512313C0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5746C273-8C01-479C-8D23-FBE8CB8F58AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{A5F64EBE-A398-4C80-9E1B-E28E40B900B7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{248635C1-4C2E-47BE-81C9-FD45D1BA964E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48AD9590-AC94-4280-A63F-161C51D3D073}
 	EndGlobalSection
 EndGlobal

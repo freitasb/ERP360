@@ -6,6 +6,10 @@ C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Api.deps.j
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Api.runtimeconfig.json
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Api.dll
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Api.pdb
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\MassTransit.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Application.dll
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Domain.dll
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\bin\Debug\net8.0\ERP360.Pedidos.Application.pdb
@@ -17,6 +21,7 @@ C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\ERP360.Pedidos.Api.Assemb
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\ERP360.Pedidos.Api.AssemblyInfo.cs
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\ERP360.Pedidos.Api.csproj.CoreCompileInputs.cache
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\ERP360.Pedidos.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\ERP360.Pedidos.Api.sourcelink.json
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

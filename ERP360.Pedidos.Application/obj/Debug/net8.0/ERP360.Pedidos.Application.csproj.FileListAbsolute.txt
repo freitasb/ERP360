@@ -8,6 +8,7 @@ C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.Pedidos.Ap
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.Pedidos.Application.AssemblyInfoInputs.cache
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.Pedidos.Application.AssemblyInfo.cs
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.Pedidos.Application.csproj.CoreCompileInputs.cache
+C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.Pedidos.Application.sourcelink.json
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.P.2D5D4ACF.Up2Date
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\ERP360.Pedidos.Application.dll
 C:\Tapagoh!\ERP360\ERP360.Pedidos.Application\obj\Debug\net8.0\refint\ERP360.Pedidos.Application.dll

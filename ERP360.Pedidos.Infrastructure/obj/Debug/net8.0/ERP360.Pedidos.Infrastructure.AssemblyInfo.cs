@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP360.Pedidos.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba43ae4242c4a2c00671d2900a6074187b0bdfe7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP360.Pedidos.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP360.Pedidos.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
