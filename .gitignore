@@ -1,0 +1,89 @@
+## Build
+bin/
+obj/
+out/
+artifacts/
+[Bb]uild/
+[Ll]og/
+
+## Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+.vscode/
+.vs/
+
+## Resharper / Rider
+.idea/
+*.DotSettings.user
+
+## VS Code
+.vscode/
+
+## Arquivos de configuração locais
+appsettings.Development.json
+appsettings.Local.json
+
+## Logs / Dumps
+*.log
+*.tlog
+*.dmp
+*.diag
+*.etl
+
+## Arquivos do NuGet
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Diretório global de pacotes do NuGet
+# (Comente se quiser versionar)
+**/packages/
+
+## Cache / Temp
+*.tmp
+*.temp
+*_i.c
+*_p.c
+*.pch
+*.dbmdl
+*.jfm
+*.cache/
+_tmp/
+__pycache__/
+
+## Testes
+TestResult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Publicação
+publish/
+*.pubxml
+*.pubxml.user
+
+## Config / Segredos
+secrets.json
+*.key
+*.pem
+*.pfx
+*.certificate*
+
+## Executáveis gerados
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+## Sistema Operacional
+.DS_Store
+Thumbs.db

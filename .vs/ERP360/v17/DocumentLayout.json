@@ -3,123 +3,330 @@
   "WorkspaceRootPath": "C:\\Tapagoh!\\ERP360\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.api\\pagination\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:erp360.pedidos.api\\pagination\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\pedidos\\commands\\confirmarpedido\\confirmarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\pedidos\\commands\\confirmarpedido\\confirmarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\pedidos\\commands\\confirmarpagamento\\confirmarpagamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\pedidos\\commands\\confirmarpagamento\\confirmarpagamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\validation\\pedidos\\criarpedidodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\validation\\pedidos\\criarpedidodtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\abstractions\\ipublishevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\abstractions\\ipublishevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.application\\pedidos\\commands\\criarpedido\\criarpedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:src\\erp360.pedidos.application\\pedidos\\commands\\criarpedido\\criarpedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\events\\pedidocriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\events\\pedidocriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\validation\\pedidos\\criarpedidoitemdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\validation\\pedidos\\criarpedidoitemdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\pedidos\\events\\pedidopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\pedidos\\events\\pedidopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\contracts\\pedidos\\criarpedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\contracts\\pedidos\\criarpedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5F64EBE-A398-4C80-9E1B-E28E40B900B7}|ERP360.Pedidos.Infrastructure\\ERP360.Pedidos.Infrastructure.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.infrastructure\\inmemory\\pedidorepositoryinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5F64EBE-A398-4C80-9E1B-E28E40B900B7}|ERP360.Pedidos.Infrastructure\\ERP360.Pedidos.Infrastructure.csproj|solutionrelative:erp360.pedidos.infrastructure\\inmemory\\pedidorepositoryinmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\contracts\\pedidos\\criarpedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\contracts\\pedidos\\criarpedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5F64EBE-A398-4C80-9E1B-E28E40B900B7}|ERP360.Pedidos.Infrastructure\\ERP360.Pedidos.Infrastructure.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.infrastructure\\inmemory\\eventcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5F64EBE-A398-4C80-9E1B-E28E40B900B7}|ERP360.Pedidos.Infrastructure\\ERP360.Pedidos.Infrastructure.csproj|solutionrelative:erp360.pedidos.infrastructure\\inmemory\\eventcollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.application\\pedidos\\commands\\criarpedido\\criarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:src\\erp360.pedidos.application\\pedidos\\commands\\criarpedido\\criarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:erp360.pedidos.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EA664C9-D1CA-4197-5D46-9BA6A62E1ABA}|src\\ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:src\\erp360.pedidos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:erp360.pedidos.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{130A06EB-908D-4BE0-8682-402C8E04507F}|src\\ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{130A06EB-908D-4BE0-8682-402C8E04507F}|src\\ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:src\\erp360.pedidos.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\abstractions\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\abstractions\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.application\\pedidos\\commands\\confirmarpedido\\confirmarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:src\\erp360.pedidos.application\\pedidos\\commands\\confirmarpedido\\confirmarpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\src\\erp360.pedidos.application\\abstractions\\estoquereadonlystub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D00182F-44E3-C416-7F2C-3C36C3D648E4}|src\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:src\\erp360.pedidos.application\\abstractions\\estoquereadonlystub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F857E00E-D138-4F11-8308-E14E9AA6CAFF}|tests\\ERP360.Pedidos.Domain.Tests\\ERP360.Pedidos.Domain.Tests.csproj|c:\\tapagoh!\\erp360\\tests\\erp360.pedidos.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F857E00E-D138-4F11-8308-E14E9AA6CAFF}|tests\\ERP360.Pedidos.Domain.Tests\\ERP360.Pedidos.Domain.Tests.csproj|solutionrelative:tests\\erp360.pedidos.domain.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\entities\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\entities\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Pagination\\PagedResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Api\\Pagination\\PagedResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\pedidos\\policies\\reservapedidopolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\pedidos\\policies\\reservapedidopolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Pagination\\PaginationParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Api\\Pagination\\PaginationParams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\abstractions\\estoquereadonlystub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\abstractions\\estoquereadonlystub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Primitives\\IDomainEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Domain\\Primitives\\IDomainEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\abstractions\\iestoquereadonlyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\abstractions\\iestoquereadonlyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Entities\\PedidoItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Domain\\Entities\\PedidoItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.api\\pagination\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{248635C1-4C2E-47BE-81C9-FD45D1BA964E}|ERP360.Pedidos.Api\\ERP360.Pedidos.Api.csproj|solutionrelative:erp360.pedidos.api\\pagination\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Api\\Controllers\\PedidosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\events\\pedidocancelado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\events\\pedidocancelado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\primitives\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\primitives\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Infrastructure\\InMemory\\EventCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Infrastructure\\InMemory\\EventCollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\events\\statuspedidoalterado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\events\\statuspedidoalterado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.application\\erp360.pedidos.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5746C273-8C01-479C-8D23-FBE8CB8F58AE}|ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj|solutionrelative:erp360.pedidos.application\\erp360.pedidos.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Infrastructure\\InMemory\\PedidoRepositoryInMemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Infrastructure\\InMemory\\PedidoRepositoryInMemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|c:\\tapagoh!\\erp360\\erp360.pedidos.domain\\erp360.pedidos.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{164A4B80-3027-4AE0-BE72-1F5E512313C0}|ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj|solutionrelative:erp360.pedidos.domain\\erp360.pedidos.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Policies\\ReservaPedidoPolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Pedidos\\Policies\\ReservaPedidoPolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPagamento\\ConfirmarPagamentoCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPagamento\\ConfirmarPagamentoCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Events\\PedidoPago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Pedidos\\Events\\PedidoPago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\IPublishEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Abstractions\\IPublishEvent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\IEstoqueReadOnlyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Abstractions\\IEstoqueReadOnlyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\IPedidoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Abstractions\\IPedidoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Common\\Result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Application\\Common\\Result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Events\\StatusPedidoAlterado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Domain\\Events\\StatusPedidoAlterado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Events\\PedidoCancelado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Domain\\Events\\PedidoCancelado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Events\\PedidoCriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Domain\\Events\\PedidoCriado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Entities\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP360.Pedidos.Domain\\Entities\\Pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 192,
+      "VerticalTabListWidth": 216,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\appsettings.json",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\appsettings.json",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-09T12:57:44.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CriarPedidoItemDtoValidator.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoItemDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoItemDtoValidator.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoItemDtoValidator.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoItemDtoValidator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:28:55.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CriarPedidoDtoValidator.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoDtoValidator.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoDtoValidator.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoDtoValidator.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\Validation\\Pedidos\\CriarPedidoDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:21:29.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CriarPedidoCommand.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommand.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommand.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommand.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:21:51.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CriarPedidoItemDto.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoItemDto.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoItemDto.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoItemDto.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T21:56:59.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\Program.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Program.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T20:39:52.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CriarPedidoDto.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoDto.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoDto.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoDto.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\Contracts\\Pedidos\\CriarPedidoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T20:27:32.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EstoqueReadOnlyStub.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:59:22.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CriarPedidoCommandHandler.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommandHandler.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommandHandler.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\CriarPedido\\CriarPedidoCommandHandler.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowDMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:45:02.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmarPedidoCommand.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswCsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T19:28:25.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\tests\\ERP360.Pedidos.Domain.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "tests\\ERP360.Pedidos.Domain.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\tests\\ERP360.Pedidos.Domain.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "tests\\ERP360.Pedidos.Domain.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:17:45.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Domain\\Entities\\Pedido.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Domain\\Entities\\Pedido.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Domain\\Entities\\Pedido.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Domain\\Entities\\Pedido.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAtwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:13:41.809Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "src\\ERP360.Pedidos.Api\\Controllers\\PedidosController.cs",
+              "ToolTip": "C:\\Tapagoh!\\ERP360\\src\\ERP360.Pedidos.Api\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "src\\ERP360.Pedidos.Api\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T19:13:13.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PagedResponse.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Pagination\\PagedResponse.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Api\\Pagination\\PagedResponse.cs",
               "ToolTip": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Pagination\\PagedResponse.cs",
               "RelativeToolTip": "ERP360.Pedidos.Api\\Pagination\\PagedResponse.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T13:30:08.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T13:30:08.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "PaginationParams.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Pagination\\PaginationParams.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Api\\Pagination\\PaginationParams.cs",
@@ -131,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "IDomainEvent.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Primitives\\IDomainEvent.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\Primitives\\IDomainEvent.cs",
@@ -143,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "PedidoItem.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Entities\\PedidoItem.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\Entities\\PedidoItem.cs",
@@ -155,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "PedidosController.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Controllers\\PedidosController.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Api\\Controllers\\PedidosController.cs",
@@ -167,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Api\\Program.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Api\\Program.cs",
@@ -179,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "EventCollector.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Infrastructure\\InMemory\\EventCollector.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Infrastructure\\InMemory\\EventCollector.cs",
@@ -191,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "EstoqueReadOnlyStub.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Abstractions\\EstoqueReadOnlyStub.cs",
@@ -203,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "PedidoRepositoryInMemory.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Infrastructure\\InMemory\\PedidoRepositoryInMemory.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Infrastructure\\InMemory\\PedidoRepositoryInMemory.cs",
@@ -215,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "ReservaPedidoPolicy.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Policies\\ReservaPedidoPolicy.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Pedidos\\Policies\\ReservaPedidoPolicy.cs",
@@ -227,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "ConfirmarPagamentoCommand.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPagamento\\ConfirmarPagamentoCommand.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPagamento\\ConfirmarPagamentoCommand.cs",
@@ -239,31 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ERP360.Pedidos.Application.csproj",
-              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj",
-              "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj",
-              "ToolTip": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj",
-              "RelativeToolTip": "ERP360.Pedidos.Application\\ERP360.Pedidos.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T10:23:04.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ERP360.Pedidos.Domain.csproj",
-              "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj",
-              "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj",
-              "ToolTip": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj",
-              "RelativeToolTip": "ERP360.Pedidos.Domain\\ERP360.Pedidos.Domain.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T10:23:03.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 24,
               "Title": "ConfirmarPedidoCommand.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Pedidos\\Commands\\ConfirmarPedido\\ConfirmarPedidoCommand.cs",
@@ -275,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 25,
               "Title": "PedidoPago.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Pedidos\\Events\\PedidoPago.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Pedidos\\Events\\PedidoPago.cs",
@@ -287,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "IPublishEvent.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\IPublishEvent.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Abstractions\\IPublishEvent.cs",
@@ -299,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "IEstoqueReadOnlyService.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\IEstoqueReadOnlyService.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Abstractions\\IEstoqueReadOnlyService.cs",
@@ -311,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 28,
               "Title": "IPedidoRepository.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Abstractions\\IPedidoRepository.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Abstractions\\IPedidoRepository.cs",
@@ -323,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Application\\Common\\Result.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Application\\Common\\Result.cs",
@@ -335,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "StatusPedidoAlterado.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Events\\StatusPedidoAlterado.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\Events\\StatusPedidoAlterado.cs",
@@ -347,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "PedidoCancelado.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Events\\PedidoCancelado.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\Events\\PedidoCancelado.cs",
@@ -359,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 32,
               "Title": "PedidoCriado.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Events\\PedidoCriado.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\Events\\PedidoCriado.cs",
@@ -371,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 33,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\Tapagoh!\\ERP360\\ERP360.Pedidos.Domain\\Entities\\Pedido.cs",
               "RelativeDocumentMoniker": "ERP360.Pedidos.Domain\\Entities\\Pedido.cs",
