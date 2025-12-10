@@ -22,7 +22,7 @@ artifacts/
 ## VS Code
 .vscode/
 
-## Arquivos de configuração locais
+## Arquivos de configuraï¿½ï¿½o locais
 appsettings.Development.json
 appsettings.Local.json
 
@@ -42,7 +42,7 @@ packages/
 project.lock.json
 project.fragment.lock.json
 
-# Diretório global de pacotes do NuGet
+# Diretï¿½rio global de pacotes do NuGet
 # (Comente se quiser versionar)
 **/packages/
 
@@ -65,7 +65,7 @@ TestResults/
 *.coverage
 *.coveragexml
 
-## Publicação
+## Publicaï¿½ï¿½o
 publish/
 *.pubxml
 *.pubxml.user
@@ -77,7 +77,7 @@ secrets.json
 *.pfx
 *.certificate*
 
-## Executáveis gerados
+## Executï¿½veis gerados
 *.exe
 *.dll
 *.so
@@ -87,3 +87,6 @@ secrets.json
 ## Sistema Operacional
 .DS_Store
 Thumbs.db
+
+*.v9.bin
+*.db
