@@ -12,9 +12,17 @@ namespace ERP360.Pedidos.Infrastructure.InMemory
     {
         private readonly Dictionary<Guid, Pedido> _store = new();
 
+        public Task<Pedido?> GetByIdAsync(Guid pedidoId, CancellationToken cancellationToken)
+        {
+            var pedido = _store.FirstOrDefault(p => p.Value.PedidoId == pedidoId);
 
-        public Task<Pedido?> GetAsync(Guid id, CancellationToken ct = default)
-        => Task.FromResult(_store.TryGetValue(id, out var p) ? p : null);
+            // Se não encontrou nada, entry será um KeyValuePair padrão
+            if (pedido.Equals(default(KeyValuePair<Guid, Pedido>)))
+            {
+                return Task.FromResult<Pedido?>(null);
+            }
+            return Task.FromResult<Pedido?>(pedido.Value);
+        }
 
 
         public Task AddAsync(Pedido pedido, CancellationToken ct = default)

@@ -39,7 +39,7 @@ namespace ERP360.Pedidos.Domain.Entities
             PedidoId = Guid.NewGuid();
             ClienteId = clienteId;
             Status = StatusPedido.Rascunho;
-            DataCriacao = DateTimeOffset.UtcNow;
+            DataCriacao = DateTimeOffset.Now;
         }
 
 
@@ -100,7 +100,7 @@ namespace ERP360.Pedidos.Domain.Entities
 
             var anterior = Status;
             Status = destino;
-            DataAtualizacaoStatus = DateTimeOffset.UtcNow;
+            DataAtualizacaoStatus = DateTimeOffset.Now;
             _events.Add(new Events.StatusPedidoAlterado(PedidoId, anterior, destino, motivo, DataAtualizacaoStatus.Value));
 
 

@@ -5,6 +5,7 @@ using ERP360.Pedidos.Infrastructure.InMemory;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MassTransit;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,11 +19,11 @@ builder.Services.AddFluentValidationAutoValidation(); // validação automática
 builder.Services.AddValidatorsFromAssemblyContaining<CriarPedidoDtoValidator>();
 
 //Agora estamos registrando o MediatR oficialmente para a camada Application.
-builder.Services.AddMediatR(cfg =>
-    cfg.RegisterServicesFromAssembly(typeof(CriarPedidoCommand).Assembly));
+builder.Services.AddMediatR(typeof(CriarPedidoCommand).Assembly);
 
 // Ports de saída (Application -> Infrastructure InMemory, por enquanto).
-builder.Services.AddScoped<IPedidoRepository, PedidoRepositoryInMemory>();
+//builder.Services.AddScoped<IPedidoRepository, PedidoRepositoryInMemory>();
+builder.Services.AddSingleton<IPedidoRepository, PedidoRepositoryInMemory>();
 builder.Services.AddScoped<IEstoqueReadOnlyService, EstoqueReadOnlyStub>();
 builder.Services.AddScoped<IPublishEvent, EventCollector>();
 

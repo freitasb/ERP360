@@ -1,4 +1,4 @@
-﻿using ERP360.Pedidos.Api.Contracts.Pedidos;
+﻿using ERP360.Pedidos.Api.Contracts.Pedidos.CriarPedido;
 using FluentValidation;
 
 namespace ERP360.Pedidos.Api.Validaion.Pedidos

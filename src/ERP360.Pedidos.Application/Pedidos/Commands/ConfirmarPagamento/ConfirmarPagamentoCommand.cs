@@ -25,7 +25,7 @@ namespace ERP360.Pedidos.Application.Pedidos.Commands.ConfirmarPagamento
         public async Task<Result> Handle(ConfirmarPagamentoCommand cmd, CancellationToken ct = default)
         {
             // Idempotência: aqui apenas deixamos o campo; a logística real virá ao integrar com storage/cache.
-            var pedido = await _repo.GetAsync(cmd.PedidoId, ct);
+            var pedido = await _repo.GetByIdAsync(cmd.PedidoId, ct);
             if (pedido is null) return Result.Failure("Pedido não encontrado.");
 
 

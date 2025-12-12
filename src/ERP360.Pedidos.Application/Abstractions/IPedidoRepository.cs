@@ -9,7 +9,7 @@ namespace ERP360.Pedidos.Application.Abstractions
 {
     public interface IPedidoRepository
     {
-        Task<Pedido?> GetAsync(Guid id, CancellationToken ct = default);
+        Task<Pedido?> GetByIdAsync(Guid pedidoId, CancellationToken cancellationToken);
         Task AddAsync(Pedido pedido, CancellationToken ct = default);
         Task UpdateAsync(Pedido pedido, CancellationToken ct = default);
     }

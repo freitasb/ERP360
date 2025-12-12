@@ -20,7 +20,7 @@ namespace ERP360.Pedidos.Application.Pedidos.Policies
 
         public async Task<Result> Handle(ReservaConfirmada message, CancellationToken ct = default)
         {
-            var pedido = await _repo.GetAsync(message.PedidoId, ct);
+            var pedido = await _repo.GetByIdAsync(message.PedidoId, ct);
             if (pedido is null) return Result.Failure("Pedido não encontrado.");
 
 
@@ -32,7 +32,7 @@ namespace ERP360.Pedidos.Application.Pedidos.Policies
 
         public async Task<Result> Handle(ReservaFalhou message, CancellationToken ct = default)
         {
-            var pedido = await _repo.GetAsync(message.PedidoId, ct);
+            var pedido = await _repo.GetByIdAsync(message.PedidoId, ct);
             if (pedido is null) return Result.Failure("Pedido não encontrado.");
 
 

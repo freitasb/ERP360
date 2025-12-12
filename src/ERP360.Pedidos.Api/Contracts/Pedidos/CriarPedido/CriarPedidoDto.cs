@@ -1,4 +1,4 @@
-﻿namespace ERP360.Pedidos.Api.Contracts.Pedidos
+﻿namespace ERP360.Pedidos.Api.Contracts.Pedidos.CriarPedido
 {
     public sealed class CriarPedidoDto
     {
