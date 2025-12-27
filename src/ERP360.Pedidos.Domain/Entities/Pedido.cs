@@ -52,7 +52,7 @@ namespace ERP360.Pedidos.Domain.Entities
 
         public void AdicionarItem(Guid produtoId, string nome, int quantidade, Money precoUnitario)
         {
-            var novo = new PedidoItem(produtoId, nome, quantidade, precoUnitario);
+            var novo = new PedidoItem(PedidoId, produtoId, nome, quantidade, precoUnitario);
             _itens.Add(novo);
             // Invariante: total sempre coerente (Total é calculado on-the-fly)
         }

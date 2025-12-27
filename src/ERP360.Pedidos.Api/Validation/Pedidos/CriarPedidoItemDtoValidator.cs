@@ -1,7 +1,7 @@
 ﻿using ERP360.Pedidos.Api.Contracts.Pedidos.CriarPedido;
 using FluentValidation;
 
-namespace ERP360.Pedidos.Api.Validaion.Pedidos
+namespace ERP360.Pedidos.Api.Validation.Pedidos
 {
     public sealed class CriarPedidoItemDtoValidator : AbstractValidator<CriarPedidoItemDto>
     {

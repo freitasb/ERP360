@@ -1,18 +1,25 @@
-﻿using ERP360.Pedidos.Api.Validaion.Pedidos;
+﻿using ERP360.Pedidos.Api.Validation.Pedidos;
 using ERP360.Pedidos.Application.Abstractions;
 using ERP360.Pedidos.Application.Pedidos.Commands.CriarPedido;
 using ERP360.Pedidos.Infrastructure.InMemory;
+using ERP360.Pedidos.Infrastructure.Persistence;
+using ERP360.Pedidos.Infrastructure.Persistence.Repositories;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using MassTransit;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // 👇 1) Registramos o suporte a Controllers no pipeline de DI.
 // Dá pra imaginar isso como: "app, quero usar o modelo MVC/API com Controllers".
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<PedidosDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PedidosDb")));
+
 
 // ⚙ FluentValidation com integração automática ao pipeline da API.
 builder.Services.AddFluentValidationAutoValidation(); // validação automática dos models
@@ -23,7 +30,7 @@ builder.Services.AddMediatR(typeof(CriarPedidoCommand).Assembly);
 
 // Ports de saída (Application -> Infrastructure InMemory, por enquanto).
 //builder.Services.AddScoped<IPedidoRepository, PedidoRepositoryInMemory>();
-builder.Services.AddSingleton<IPedidoRepository, PedidoRepositoryInMemory>();
+builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
 builder.Services.AddScoped<IEstoqueReadOnlyService, EstoqueReadOnlyStub>();
 builder.Services.AddScoped<IPublishEvent, EventCollector>();
 

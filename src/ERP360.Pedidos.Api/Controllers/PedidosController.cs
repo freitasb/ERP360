@@ -80,6 +80,9 @@ namespace ERP360.Pedidos.Api.Controllers
                 return BadRequest(new { error = result.Error });
             }
 
+            if (result.Value is null)
+                return StatusCode(500, new { error = "Resultado inconsistente: sucesso sem valor." });
+
             // 4) Pega o ViewModel retornado pela Application
             var vm = result.Value;
 
