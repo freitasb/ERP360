@@ -58,7 +58,9 @@ namespace ERP360.Pedidos.Application.Pedidos.Commands.CriarPedido
 
             // Transição de estado de Rascunho -> AguardandoPagamento
             // e emissão do Domain Event PedidoCriado (implementado no domínio).
-            pedido.Confirmar();
+            var confirmarResult = pedido.Confirmar();
+            if (!confirmarResult.IsSuccess)
+                return Result<Guid>.Failure(confirmarResult.Error);
 
             // 4) Persistência via porta abstrata (Repository).
             // Fundamentos: Repository Pattern + Ports & Adapters.

@@ -28,8 +28,10 @@ namespace ERP360.Pedidos.Application.Pedidos.Commands.ConfirmarPagamento
             var pedido = await _repo.GetByIdAsync(cmd.PedidoId, ct);
             if (pedido is null) return Result.Failure("Pedido não encontrado.");
 
-
-            pedido.MarcarPago(); // domínio garante transição válida
+            var marcarPagoResult = pedido.MarcarPago(); // domínio garante transição válida
+            if (!marcarPagoResult.IsSuccess)
+                return Result.Failure(marcarPagoResult.Error);
+            
 
 
             await _repo.UpdateAsync(pedido, ct);

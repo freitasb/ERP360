@@ -24,7 +24,10 @@ namespace ERP360.Pedidos.Application.Pedidos.Policies
             if (pedido is null) return Result.Failure("Pedido não encontrado.");
 
 
-            pedido.IniciarSeparacao();
+            var iniciarSeparacao = pedido.IniciarSeparacao();
+            if (!iniciarSeparacao.IsSuccess) 
+                return Result.Failure(iniciarSeparacao.Error);
+
             await _repo.UpdateAsync(pedido, ct);
             return Result.Success();
         }

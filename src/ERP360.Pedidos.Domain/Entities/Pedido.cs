@@ -1,4 +1,6 @@
-﻿using ERP360.Pedidos.Domain.Enums;
+﻿using ERP360.Pedidos.Domain.Common;
+using ERP360.Pedidos.Domain.Enums;
+using ERP360.Pedidos.Domain.Events;
 using ERP360.Pedidos.Domain.Primitives;
 using ERP360.Pedidos.Domain.ValueObjects;
 using System;
@@ -48,6 +50,13 @@ namespace ERP360.Pedidos.Domain.Entities
             return new Pedido(clienteId);
         }
 
+        public DomainResult AlterarStatus(StatusPedido destino)
+        {
+            if (destino == StatusPedido.Cancelado)
+                return CancelarManual();
+
+            return TransicionarPara(destino, "Alteração de status");
+        }
 
 
         public void AdicionarItem(Guid produtoId, string nome, int quantidade, Money precoUnitario)
@@ -58,21 +67,23 @@ namespace ERP360.Pedidos.Domain.Entities
         }
 
 
-        public void Confirmar()
+        public DomainResult Confirmar()
         {
             // Rascunho -> AguardandoPagamento
-            TransicionarPara(StatusPedido.AguardandoPagamento, motivo: "Cliente confirmou pedido");
+            var rascunhoCriado = TransicionarPara(StatusPedido.AguardandoPagamento, motivo: "Cliente confirmou pedido");
+            if (!rascunhoCriado.IsSuccess) return rascunhoCriado;
             if (string.IsNullOrWhiteSpace(Numero)) Numero = GerarNumero();
             _events.Add(new Events.PedidoCriado(PedidoId, ClienteId, Total));
+            return DomainResult.Success();
         }
 
 
-        public void MarcarPago() => TransicionarPara(StatusPedido.Pago, "Pagamento confirmado");
-        public void IniciarSeparacao() => TransicionarPara(StatusPedido.EmSeparacao, "Estoque reservado e nota emitida");
-        public void MarcarEnviado() => TransicionarPara(StatusPedido.Enviado, "Pedido despachado");
-        public void MarcarEntregue() => TransicionarPara(StatusPedido.Entregue, "Entrega confirmada");
-        public void IniciarDevolucao() => TransicionarPara(StatusPedido.EmDevolucao, "Cliente solicitou devolução");
-        public void ConcluirDevolucao() => TransicionarPara(StatusPedido.Devolvido, "Devolução concluída e reembolso feito");
+        public DomainResult MarcarPago() => TransicionarPara(StatusPedido.Pago, "Pagamento confirmado");
+        public DomainResult IniciarSeparacao() => TransicionarPara(StatusPedido.EmSeparacao, "Estoque reservado e nota emitida");
+        public DomainResult MarcarEnviado() => TransicionarPara(StatusPedido.Enviado, "Pedido despachado");
+        public DomainResult MarcarEntregue() => TransicionarPara(StatusPedido.Entregue, "Entrega confirmada");
+        public DomainResult IniciarDevolucao() => TransicionarPara(StatusPedido.EmDevolucao, "Cliente solicitou devolução");
+        public DomainResult ConcluirDevolucao() => TransicionarPara(StatusPedido.Devolvido, "Devolução concluída e reembolso feito");
 
 
         public void CancelarPorFalhaPagamento() => TransicionarPara(StatusPedido.Cancelado, "Falha de pagamento");
@@ -81,21 +92,21 @@ namespace ERP360.Pedidos.Domain.Entities
         /// <summary>
         /// Cancelamento manual permitido apenas **antes do envio**.
         /// </summary>
-        public void CancelarManual()
+        public DomainResult CancelarManual()
         {
             if (Status == StatusPedido.Enviado || Status == StatusPedido.Entregue ||
             Status == StatusPedido.EmDevolucao || Status == StatusPedido.Devolvido)
             {
-                throw new InvalidOperationException("Cancelamento não permitido após envio.");
+                return DomainResult.Failure("Cancelamento não permitido após envio.");
             }
-            TransicionarPara(StatusPedido.Cancelado, "Cancelamento manual");
+            return TransicionarPara(StatusPedido.Cancelado, "Cancelamento manual");
         }
 
 
-        private void TransicionarPara(StatusPedido destino, string motivo)
+        private DomainResult TransicionarPara(StatusPedido destino, string motivo)
         {
             if (!PodeTransitar(Status, destino))
-                throw new InvalidOperationException($"Transição inválida: {Status} -> {destino}");
+                return DomainResult.Failure($"Transição inválida: {Status} -> {destino}");//throw new InvalidOperationException($"Transição inválida: {Status} -> {destino}");
 
 
             var anterior = Status;
@@ -108,6 +119,7 @@ namespace ERP360.Pedidos.Domain.Entities
             {
                 _events.Add(new Events.PedidoCancelado(PedidoId, motivo));
             }
+            return DomainResult.Success();
         }
 
         private static bool PodeTransitar(StatusPedido de, StatusPedido para) => (de, para) switch

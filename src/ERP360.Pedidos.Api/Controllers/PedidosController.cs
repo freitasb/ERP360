@@ -1,5 +1,7 @@
-﻿using ERP360.Pedidos.Api.Contracts.Pedidos.BuscarPedido;
+﻿using ERP360.Pedidos.Api.Contracts.Pedidos.AtualizarStatus;
+using ERP360.Pedidos.Api.Contracts.Pedidos.BuscarPedido;
 using ERP360.Pedidos.Api.Contracts.Pedidos.CriarPedido;
+using ERP360.Pedidos.Application.Pedidos.Commands.AtualizarStatus;
 using ERP360.Pedidos.Application.Pedidos.Commands.CriarPedido;
 using ERP360.Pedidos.Application.Pedidos.Queries.ObterPedidoPorId;
 using MediatR;
@@ -109,5 +111,24 @@ namespace ERP360.Pedidos.Api.Controllers
             // 6) Finalmente, responde ao cliente com 200 OK e o JSON do DTO
             return Ok(dto);
         }
+
+        [HttpPut("{id:guid}/status")]
+        public async Task<IActionResult> AtualizarStatus(
+            Guid id,
+            [FromBody] AtualizarStatusPedidoDto dto,
+            CancellationToken cancellationToken)
+        {
+            var command = new AtualizarStatusPedidoCommand(
+                id,
+                dto.NovoStatus);
+
+            var result = await _mediator.Send(command, cancellationToken);
+
+            if (!result.IsSuccess)
+                return BadRequest(new { error = result.Error });
+
+            return NoContent();
+        }
+
     }
 }
