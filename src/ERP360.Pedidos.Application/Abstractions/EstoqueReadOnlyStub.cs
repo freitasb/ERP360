@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ERP360.Contracts.Pedidos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

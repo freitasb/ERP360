@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ERP360.Contracts.Pedidos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,5 @@ namespace ERP360.Pedidos.Application.Abstractions
         Task<bool> CheckDisponibilidadeAsync(IEnumerable<ItemSolicitado> itens, CancellationToken ct = default);
     }
 
-    public sealed record ItemSolicitado(Guid ProdutoId, int Quantidade);
+    //public sealed record ItemSolicitado(Guid ProdutoId, int Quantidade);
 }
