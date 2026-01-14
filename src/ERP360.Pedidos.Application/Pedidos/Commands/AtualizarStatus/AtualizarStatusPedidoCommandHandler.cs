@@ -1,7 +1,6 @@
 ﻿using ERP360.Contracts.Pedidos;
 using ERP360.Pedidos.Application.Abstractions;
 using ERP360.Pedidos.Application.Common;
-using ERP360.Pedidos.Application.Pedidos.Events;
 using ERP360.Pedidos.Domain.Enums;
 using MediatR;
 using System;

@@ -1,16 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ERP360.Contracts\ERP360.Contracts.csproj" />
+    <ProjectReference Include="..\ERP360.Contracts\ERP360.Contracts.csproj" />
     <ProjectReference Include="..\ERP360.Pedidos.Domain\ERP360.Pedidos.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="11.1.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Pedidos\Events\" />
   </ItemGroup>
 
   <PropertyGroup>

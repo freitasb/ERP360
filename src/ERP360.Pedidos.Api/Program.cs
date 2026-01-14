@@ -1,12 +1,9 @@
 ﻿using ERP360.Pedidos.Api.Validation.Pedidos;
 using ERP360.Pedidos.Application.Abstractions;
 using ERP360.Pedidos.Application.Consumers;
+using ERP360.Pedidos.Application.Pedidos.Commands.ConfirmarPagamento;
 using ERP360.Pedidos.Application.Pedidos.Commands.CriarPedido;
-using ERP360.Pedidos.Infrastructure.Consumers;
-using ERP360.Pedidos.Infrastructure.EventBus;
-using ERP360.Pedidos.Infrastructure.InMemory;
 using ERP360.Pedidos.Infrastructure.Messaging;
-using ERP360.Pedidos.Infrastructure.Messaging.Consumers;
 using ERP360.Pedidos.Infrastructure.Persistence;
 using ERP360.Pedidos.Infrastructure.Persistence.Repositories;
 using FluentValidation;
@@ -32,6 +29,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<CriarPedidoDtoValidator>();
 
 //Agora estamos registrando o MediatR oficialmente para a camada Application.
 builder.Services.AddMediatR(typeof(CriarPedidoCommand).Assembly);
+builder.Services.AddMediatR(typeof(ConfirmarPagamentoCommand).Assembly);
 
 // Ports de saída (Application -> Infrastructure InMemory, por enquanto).
 //builder.Services.AddScoped<IPedidoRepository, PedidoRepositoryInMemory>();
@@ -39,8 +37,6 @@ builder.Services.AddScoped<IPedidoRepository, PedidoRepository>();
 builder.Services.AddScoped<IEstoqueReadOnlyService, EstoqueReadOnlyStub>();
 builder.Services.AddMassTransit(x =>
 {
-    x.AddConsumer<PedidoPagoConsumer>();
-
     x.UsingRabbitMq((context, cfg) =>
     {
         cfg.Host("localhost", "/", h =>
@@ -48,13 +44,9 @@ builder.Services.AddMassTransit(x =>
             h.Username("guest");
             h.Password("guest");
         });
-
-        cfg.ReceiveEndpoint("erp360.pedidos.pedido-pago", e =>
-        {
-            e.ConfigureConsumer<PedidoPagoConsumer>(context);
-        });
     });
 });
+
 
 builder.Services.AddScoped<IPublishEvent, RabbitMqEventBus>();
 

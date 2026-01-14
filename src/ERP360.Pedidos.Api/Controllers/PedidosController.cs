@@ -2,6 +2,7 @@
 using ERP360.Pedidos.Api.Contracts.Pedidos.BuscarPedido;
 using ERP360.Pedidos.Api.Contracts.Pedidos.CriarPedido;
 using ERP360.Pedidos.Application.Pedidos.Commands.AtualizarStatus;
+using ERP360.Pedidos.Application.Pedidos.Commands.ConfirmarPagamento;
 using ERP360.Pedidos.Application.Pedidos.Commands.CriarPedido;
 using ERP360.Pedidos.Application.Pedidos.Queries.ObterPedidoPorId;
 using MediatR;
@@ -60,6 +61,24 @@ namespace ERP360.Pedidos.Api.Controllers
             var location = $"/api/v1/pedidos/{pedidoId}";
 
             return Created(location, new { id = pedidoId });
+        }
+
+        [HttpPost("{pedidoId:guid}/confirmar-pagamento")]
+        public async Task<IActionResult> ConfirmarPagamento(
+            Guid pedidoId,
+            CancellationToken cancellationToken)
+        {
+            var command = new ConfirmarPagamentoCommand(pedidoId);
+
+            var result = await _mediator.Send(command, cancellationToken);
+
+            if (!result.IsSuccess)
+            {
+                // Por enquanto, 400 simples com mensagem. Depois evoluímos para ProblemDetails.
+                return BadRequest(new { error = result.Error });
+            }
+
+            return NoContent();
         }
 
         [HttpGet("{id:guid}")]
