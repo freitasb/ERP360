@@ -17,7 +17,12 @@ namespace ERP360.Pedidos.Infrastructure.Messaging
             _publishEndpoint = publishEndpoint;
         }
 
-        public Task PublishAsync<T>(T message, CancellationToken ct = default)
-            => _publishEndpoint.Publish(message, ct);
+        public async Task PublishAsync<T>(T message, CancellationToken ct = default)
+        {
+            if (message is null)
+                throw new ArgumentNullException(nameof(message));
+
+            await _publishEndpoint.Publish(message!, ct);
+        }
     }
 }

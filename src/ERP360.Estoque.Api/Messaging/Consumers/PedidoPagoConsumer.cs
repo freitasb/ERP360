@@ -33,10 +33,11 @@ namespace ERP360.Estoque.Api.Messaging.Consumers
 
             if (!result.IsSuccess)
             {
-                _logger.LogError(
-                    "[ESTOQUE] Falha ao reservar estoque. PedidoId={PedidoId}. Erro={Erro}",
+                // ✅ ACK + LOG (não derruba o canal)
+                _logger.LogWarning("[ESTOQUE] Falha ao reservar estoque. PedidoId={PedidoId}. Erro={Erro}",
                     msg.PedidoId, result.Error);
-                // aqui você decide se requeue/ retry será via policy do MassTransit (recomendado)
+
+                return;
             }
             else
             {

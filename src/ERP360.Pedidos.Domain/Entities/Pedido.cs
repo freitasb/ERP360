@@ -71,9 +71,13 @@ namespace ERP360.Pedidos.Domain.Entities
         {
             // Rascunho -> AguardandoPagamento
             var rascunhoCriado = TransicionarPara(StatusPedido.AguardandoPagamento, motivo: "Cliente confirmou pedido");
+            
             if (!rascunhoCriado.IsSuccess) return rascunhoCriado;
+
             if (string.IsNullOrWhiteSpace(Numero)) Numero = GerarNumero();
+
             _events.Add(new Events.PedidoCriado(PedidoId, ClienteId, Total));
+
             return DomainResult.Success();
         }
 

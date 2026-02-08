@@ -8,6 +8,7 @@ namespace ERP360.Estoque.Domain.Entities
 {
     public sealed class EstoqueItem
     {
+        public Guid Id { get; private set; }
         public Guid ProdutoId { get; private set; }
         public int QuantidadeDisponivel { get; private set; }
 
@@ -18,6 +19,7 @@ namespace ERP360.Estoque.Domain.Entities
             if (produtoId == Guid.Empty) throw new ArgumentException("ProdutoId inválido.");
             if (quantidadeDisponivel < 0) throw new ArgumentOutOfRangeException(nameof(quantidadeDisponivel));
 
+            Id = Guid.NewGuid();
             ProdutoId = produtoId;
             QuantidadeDisponivel = quantidadeDisponivel;
         }

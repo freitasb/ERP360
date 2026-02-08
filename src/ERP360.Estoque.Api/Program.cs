@@ -1,19 +1,23 @@
-using ERP360.Estoque.Api.Infrastructure;
 using ERP360.Estoque.Api.Messaging.Consumers;
 using ERP360.Estoque.Application.Abstractions;
-using ERP360.Estoque.Application.Reservas.Command.ReservarEstoqueDoPedido;
-using ERP360.Estoque.Infrastructure.Persistence.InMemory;
+using ERP360.Estoque.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using MassTransit;
 using MediatR;
+using ERP360.Estoque.Infrastructure.Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddMediatR(typeof(ReservarEstoqueDoPedidoCommand).Assembly);
 
-builder.Services.AddScoped<IEstoqueRepository, EstoqueRepositoryInMemory>();
+builder.Services.AddDbContext<EstoqueDbContext>(opt =>
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("EstoqueDb")));
+
+builder.Services.AddScoped<IEstoqueRepository, EstoqueRepository>();
+
+builder.Services.AddMediatR(typeof(ERP360.Estoque.Application.AssemblyReference).Assembly);
 
 builder.Services.AddMassTransit(x =>
 {
