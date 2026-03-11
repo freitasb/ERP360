@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace ERP360.Pedidos.Infrastructure.InMemory
 {
-    public sealed class EventCollector : IPublishEvent
+    public sealed class EventCollector //: IPublishEvent
     {
-        public List<object> Published { get; } = new();
-        public Task PublishAsync<T>(T message, CancellationToken ct = default)
-        {
-            Published.Add(message!);
-            return Task.CompletedTask;
-        }
+        //public List<object> Published { get; } = new();
+        //public Task PublishAsync<T>(T message, CancellationToken ct = default)
+        //{
+        //    Published.Add(message!);
+        //    return Task.CompletedTask;
+        //}
     }
 }

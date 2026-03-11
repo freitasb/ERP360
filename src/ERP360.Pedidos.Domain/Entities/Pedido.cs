@@ -116,12 +116,12 @@ namespace ERP360.Pedidos.Domain.Entities
             var anterior = Status;
             Status = destino;
             DataAtualizacaoStatus = DateTimeOffset.Now;
-            _events.Add(new Events.StatusPedidoAlterado(PedidoId, anterior, destino, motivo, DataAtualizacaoStatus.Value));
+            _events.Add(new StatusPedidoAlterado(PedidoId, anterior, destino, motivo, DataAtualizacaoStatus.Value));
 
 
             if (destino == StatusPedido.Cancelado)
             {
-                _events.Add(new Events.PedidoCancelado(PedidoId, motivo));
+                _events.Add(new PedidoCancelado(PedidoId, motivo));
             }
             return DomainResult.Success();
         }
