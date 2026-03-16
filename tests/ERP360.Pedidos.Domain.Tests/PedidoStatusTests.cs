@@ -73,19 +73,17 @@ namespace ERP360.Pedidos.Domain.Tests
         public void MarcarPago_Deve_Falhar_Quando_Transicao_For_Invalida()
         {
             var pedido = Pedido.CriarRascunho(Guid.NewGuid());
-            //pedido.Confirmar();
             var result = pedido.MarcarPago();
 
             Assert.False(result.IsSuccess);
+            Assert.Equal(StatusPedido.Rascunho, pedido.Status);
             Assert.False(string.IsNullOrWhiteSpace(result.Error));
-
         }
 
         [Fact]
         public void CancelarManual_Deve_Cancelar_Quando_Ainda_Nao_Foi_Enviado()
         {
             var pedido = Pedido.CriarRascunho(Guid.NewGuid());
-            //pedido.AdicionarItem(Guid.NewGuid(), "Produto X", 2, Money.From(10m));
             pedido.Confirmar();
             pedido.MarcarPago();
 
@@ -94,6 +92,7 @@ namespace ERP360.Pedidos.Domain.Tests
             Assert.True(result.IsSuccess);
             Assert.Equal(StatusPedido.Cancelado, pedido.Status);
             Assert.Contains(pedido.Events, e => e is PedidoCancelado);
+            Assert.True(string.IsNullOrWhiteSpace(result.Error));
         }
     }
 }

@@ -106,6 +106,7 @@ namespace ERP360.Pedidos.Application.Tests
             // A) O handler deve retornar sucesso.
             Assert.True(result.IsSuccess);
             Assert.Null(result.Error);
+            Assert.Equal(ERP360.Pedidos.Domain.Enums.StatusPedido.Pago, pedido.Status);
 
             // B) Verificamos se o repo foi chamado exatamente como esperamos.
             repoMock.Verify(r => r.GetByIdAsync(pedido.PedidoId, It.IsAny<CancellationToken>()), Times.Once);

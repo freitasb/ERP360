@@ -39,6 +39,7 @@ namespace ERP360.Pedidos.Application.Tests
 
             Assert.True(result.IsSuccess);
             Assert.Null(result.Error);
+            Assert.Equal(StatusPedido.AguardandoPagamento, pedido.Status);
 
             repoMock.Verify(r => r.GetByIdAsync(pedido.PedidoId, It.IsAny<CancellationToken>()), Times.Once);
             repoMock.Verify(r => r.UpdateAsync(pedido, It.IsAny<CancellationToken>()), Times.Once);
@@ -84,6 +85,8 @@ namespace ERP360.Pedidos.Application.Tests
 
             Assert.True(result.IsSuccess);
             Assert.Null(result.Error);
+            Assert.Equal(StatusPedido.Pago, pedido.Status);
+
             repoMock.Verify(r => r.GetByIdAsync(pedido.PedidoId, It.IsAny<CancellationToken>()), Times.Once);
             repoMock.Verify(r => r.UpdateAsync(pedido, It.IsAny<CancellationToken>()), Times.Once);
 
@@ -160,6 +163,7 @@ namespace ERP360.Pedidos.Application.Tests
 
             Assert.False(result.IsSuccess);
             Assert.Equal("Status inválido.", result.Error);
+            Assert.Equal(StatusPedido.AguardandoPagamento, pedido.Status);
 
             // não pode atualizar nem publicar
             repoMock.Verify(r => r.GetByIdAsync(pedido.PedidoId, It.IsAny<CancellationToken>()), Times.Once);
@@ -189,6 +193,7 @@ namespace ERP360.Pedidos.Application.Tests
 
             Assert.False(result.IsSuccess);
             Assert.False(string.IsNullOrWhiteSpace(result.Error));
+            Assert.Equal(StatusPedido.Rascunho, pedido.Status);
 
             // não pode atualizar nem publicar
             repoMock.Verify(r => r.GetByIdAsync(pedido.PedidoId, It.IsAny<CancellationToken>()), Times.Once);
@@ -219,6 +224,7 @@ namespace ERP360.Pedidos.Application.Tests
 
             Assert.True(result.IsSuccess);
             Assert.Null(result.Error);
+            Assert.Equal(StatusPedido.AguardandoPagamento, pedido.Status);
 
             repoMock.Verify(r => r.GetByIdAsync(pedido.PedidoId, It.IsAny<CancellationToken>()), Times.Once);
             repoMock.Verify(r => r.UpdateAsync(pedido, It.IsAny<CancellationToken>()), Times.Once);
